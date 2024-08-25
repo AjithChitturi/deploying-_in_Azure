@@ -4,7 +4,7 @@
 sudo systemctl daemon-reload
 sudo rm -f /etc/nginx/sites-enabled/default
 
-sudo cp /home/ubuntu/mnt/c/Users/AJITH/OneDrive/Desktop/projects/rekhitha startup/deploying-_in_Azure/nginx/nginx.conf /etc/nginx/sites-available/blog
+sudo cp /home/ubuntu/deploying-_in_Azure/nginx/nginx.conf /etc/nginx/sites-available/blog
 sudo ln -s /etc/nginx/sites-available/myproject /etc/nginx/sites-enabled/
 #sudo ln -s /etc/nginx/sites-available/blog /etc/nginx/sites-enabled
 #sudo nginx -t

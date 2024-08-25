@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/mnt/c/Users/AJITH/OneDrive/Desktop/projects/rekhitha startup/deploying-_in_Azure
+    destination: /home/ubuntu/deploying-_in_Azure
 permissions:
-  - object: /home/ubuntu/mnt/c/Users/AJITH/OneDrive/Desktop/projects/rekhitha startup/deploying-_in_Azure
+  - object: /home/ubuntu/deploying-_in_Azure
     owner: ubuntu
     group: ubuntu
 hooks:

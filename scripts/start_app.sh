@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["54.144.250.113"]/' /home/ubuntu/mnt/c/Users/AJITH/OneDrive/Desktop/projects/rekhitha startup/deploying-_in_Azure/myproject/settings.py
+sed -i 's/\[]/\["3.26.211.191"]/' /home/ubuntu/deploying-_in_Azure/myproject/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     

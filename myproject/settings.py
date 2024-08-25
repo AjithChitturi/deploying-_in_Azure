@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Ajith', 
+        'NAME': 'test', 
         'USER': 'FirstRDS',
         'PASSWORD': '9391823807',
-        'HOST': 'database.cdc6qua8mbws.ap-southeast-2.rds.amazonaws.com', 
+        'HOST': 'database-1.cdc6qua8mbws.ap-southeast-2.rds.amazonaws.com', 
         'PORT': '5432',
     }
 }

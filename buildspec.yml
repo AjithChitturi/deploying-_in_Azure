@@ -10,6 +10,13 @@ environment_variables:
     STREAM_INCOMING_PUBLIC_KEY: changeme
     GOOGLE_API_KEY: changeme
     OPBEAT_ENABLED: False
+    DB_NAME: cicd_db
+    DB_USER: cicd
+    DB_PASSWORD: 9391823807
+    DB_HOST: database-2.cdc6qua8mbws.ap-southeast-2.rds.amazonaws.com
+    DB_PORT: 5432
+    ALLOWED_HOSTS: 'your-domain.com,3.26.211.191,localhost'
+
 
 phases:
   pre_build:
